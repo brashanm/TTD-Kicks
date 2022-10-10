@@ -2,7 +2,7 @@ const products = [
     {
         _id: '1',
         name: 'Air Jordan 4 Retro Military Black GS',
-        image: '/TTD Kicks Shoe Photos/' + this.name + '.png',
+        image: '/TTD Kicks Shoe Photos/Air Jordan 4 Retro Military Black GS.png',
         brand: 'Jordan',
         prices: 450,
         stock: 3,
@@ -12,7 +12,7 @@ const products = [
     {
         _id: '2',
         name: 'Jordan 1 Low OG UNC',
-        image: '/TTD Kicks Shoe Photos/' + this.name + '.png',
+        image: '/TTD Kicks Shoe Photos/Jordan 1 Low OG UNC.png',
         brand: 'Jordan',
         prices: 280,
         stock: 2,
@@ -22,7 +22,7 @@ const products = [
     {
         _id: '3',
         name: 'Nike Dunk Low Lottery Pack Grey Fog',
-        image: '/TTD Kicks Shoe Photos/' + this.name + '.png',
+        image: '/TTD Kicks Shoe Photos/Nike Dunk Low Lottery Pack Grey Fog.png',
         brand: 'Nike',
         prices: 250,
         stock: 3,
@@ -32,7 +32,7 @@ const products = [
     {
         _id: '4',
         name: 'Nike Dunk Low Lottery Pack Malachite Green',
-        image: '/TTD Kicks Shoe Photos/' + this.name + '.png',
+        image: '/TTD Kicks Shoe Photos/Nike Dunk Low Lottery Pack Malachite Green.png',
         brand: 'Nike',
         prices: 260,
         stock: 3,
