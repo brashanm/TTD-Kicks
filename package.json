@@ -1,0 +1,22 @@
+{
+  "name": "ttd-kicks",
+  "version": "1.0.0",
+  "description": "TTD kicks web application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brashanm/TTD-Kicks.git"
+  },
+  "author": "Brashan Mohanakumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brashanm/TTD-Kicks/issues"
+  },
+  "homepage": "https://github.com/brashanm/TTD-Kicks#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
