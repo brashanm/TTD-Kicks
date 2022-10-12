@@ -18,5 +18,9 @@
   "homepage": "https://github.com/brashanm/TTD-Kicks#readme",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^7.4.0",
+    "nodemon": "^2.0.20"
   }
 }
