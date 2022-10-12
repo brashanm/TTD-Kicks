@@ -16,12 +16,12 @@ const ProductScreen = ({ match }) => {
       }, [ id ])
   return (
     <>
-        <Link className='btn btn-light my-3' to='/'>Go Back</Link>
+        <Link className='btn btn-light my-2 mb-3' to='/'>Go Back</Link>
         <Row>
-            <Col md={6}>
+            <Col md={7}>
                 <Image src={product.image} alt={product.name} fluid/>
             </Col>
-            <Col md={3}>
+            <Col md={5}>
                 <ListGroup variant='flush'>
                     <ListGroup.Item>
                         <h2>{product.name}</h2>
@@ -33,8 +33,6 @@ const ProductScreen = ({ match }) => {
                         <h4>Price: ${product.prices}</h4>
                     </ListGroup.Item>
                 </ListGroup>
-            </Col>
-            <Col md={3}>
                 <Card>
                     <ListGroup variant='flush'>
                         <ListGroup.Item>

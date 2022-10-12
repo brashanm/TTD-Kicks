@@ -12,7 +12,7 @@ const App = () => {
   return (
     <Router>
       <Header />
-        <main className='py-2'></main>
+        <main className='py-1'></main>
           <Container>
             <Routes>
               <Route path='/' element={<Homescreen />} exact/>
