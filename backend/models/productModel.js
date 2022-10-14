@@ -1,5 +1,21 @@
 import mongoose from "mongoose"
-
+const reveiwSchema = mongoose.Schema({
+    name: {
+        type: String,
+        required: true
+    },
+    rating: {
+        type: Number,
+        required: true,
+        default: 0,
+    },
+    comment: {
+        type: String,
+        required: true
+    }
+}, {
+    timestamps: true
+})
 const productSchema = mongoose.Schema({
     user: {
         type: mongoose.Schema.Types.ObjectId,
@@ -18,23 +34,31 @@ const productSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    email: {
-        type: String,
+    price: {
+        type: Number,
         required: true,
-        unique: true
+        default: 0
     },
-    password: {
-        type: Boolean,
+    stock: {
+        type: Number,
         required: true,
-        default: false
+        default: 0
     },
-    isAdmin: {
-
+    reviews: [reveiwSchema],
+    rating: {
+        type: Number,
+        required: true,
+        default: 0
+    },
+    numReviews: {
+        type: Number,
+        required: true,
+        default: 0
     }
 }, {
     timestamps: true
 })
 
-const User = mongoose.model('User', userSchema)
+const Product = mongoose.model('Product', productSchema)
 
-export default User
+export default Product
