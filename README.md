@@ -1,5 +1,5 @@
 # TTD-Kicks
-Full-stack eCommerce web application to commercialize a small business
+###Full-stack eCommerce web application to commercialize a small business
 • Utilized the MERN stack to develop a dynamic, responsive, and secure web application for customers
 trying to view or purchase merchandise
 • Designed a user-friendly and responsive UI/UX using Figma and implemented it using React.js and
